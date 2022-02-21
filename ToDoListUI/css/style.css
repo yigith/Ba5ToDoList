@@ -1,0 +1,41 @@
+/* https://99designs.com/blog/creative-inspiration/color-combinations/ */
+/* #26495c, #c4a35a, #c66b3d, #e5e5dc */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #c4a35a;
+}
+
+ul.to-do-list {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: .8rem 1rem;
+    margin-top: 1rem;
+}
+
+ul.to-do-list > li {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+    padding: 0.5rem 0.4rem;
+}
+
+ul.to-do-list > li:last-child {
+    margin-bottom: 0;
+}
+
+ul.to-do-list > li:nth-child(even) {
+    background-color: #e5e5dc;
+}
+
+ul.to-do-list > li > button {
+    margin-left: auto;
+    background-color: #c66b3d;
+    border-color: #c66b3d;
+}
+
+ul.to-do-list > li > span {
+    margin-left: .3rem;
+}
